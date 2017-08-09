@@ -1,5 +1,5 @@
 spy_name = raw_input("Provide your name here : ")
-if len(spy_name) > 0 :
+if len(spy_name) > 0 and spy_name.isalpha():
     print "Alright "+ spy_name + "i'd like to know more about you before proceeding further. "
     spy_salutation = raw_input("Provide your salutation whether Mr. or Ms. : ")
     spy_name = spy_salutation + "." + spy_name  # the old value get's overwritten here in spy_name
@@ -12,5 +12,5 @@ if len(spy_name) > 0 :
     age = (100 - spy_age) + 2017
     print "You will be of 100 years in %d" % (age) + " year."
 else:
-    print "Name cannot be empty. Re-enter your name please."
+    print "Name can neither be Empty nor Numeric. Re-enter your name please."
 
