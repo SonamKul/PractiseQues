@@ -4,3 +4,4 @@ time.sleep(1)
 str = raw_input("Enter any string : \n")
 print "The string is : " + str
 print "The alphabet at 0 index is : " + str[0]
+print str[2:3]
