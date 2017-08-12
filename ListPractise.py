@@ -9,3 +9,6 @@ time.sleep(2)
 print "The list at [2:] is : " , list[2:]
 time.sleep(2)
 print "The list at [1:3] is : " , list[1:3]
+
+tiny_tupple = ['Hello',70.58]
+print "The tiny_list value after (tiny_tupple * 2) is : " , (tiny_tupple * 2)
