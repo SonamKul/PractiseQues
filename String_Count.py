@@ -5,3 +5,4 @@ message = raw_input("Enter a string here : ")
 
 print("Upper Case Letters : ", sum(1 for c in message if c.isupper()))
 print("Lower Case Letters : ", sum(1 for c in message if c.islower()))
+print("Numeric Letters : ", sum(1 for c in message if c.isdigit()))
